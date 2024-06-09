@@ -43,9 +43,10 @@ int GetSumOfDigits(int num)
 }
 
 Main();
-Console.WriteLine("----------------");
+
+Console.WriteLine("");
 Console.WriteLine("Следующая задача");
-Console.WriteLine("----------------");
+Console.WriteLine("");
 
 // Решение задачи № 2
 
@@ -88,3 +89,34 @@ int EvenCountNumbers(int[] anyArray)
 
 
 Main2();
+
+Console.WriteLine("");
+Console.WriteLine("Следующая задача");
+Console.WriteLine("");
+
+// Решение задачи № 3
+
+void Main3()
+{
+    int[] array = GenerateArray(10, 0, 50);
+    PrintArray(array);
+    ReversArray(array);
+}
+
+void ReversArray(int[] arr)
+{
+    int temp = 0;
+    for (int i = 0; i < arr.Length / 2; i++)
+    {
+        temp = arr[i];
+        arr[i] = arr[arr.Length - i - 1];
+        arr[arr.Length - i - 1] = temp;
+    }
+    Console.WriteLine("Перевернутый массив:");
+    foreach (int number in arr)
+    {
+        Console.Write(number + ", ");
+    }
+}
+
+Main3();

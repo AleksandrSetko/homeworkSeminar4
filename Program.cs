@@ -43,3 +43,48 @@ int GetSumOfDigits(int num)
 }
 
 Main();
+Console.WriteLine("----------------");
+Console.WriteLine("Следующая задача");
+Console.WriteLine("----------------");
+
+// Решение задачи № 2
+
+void Main2()
+{
+    int[] array = GenerateArray(10, 100, 1000);
+    PrintArray(array);
+    Console.Write(EvenCountNumbers(array));
+}
+
+int[] GenerateArray(int size, int minRange, int maxRange)
+{
+    int[] tempArray = new int[size];
+    Random rand = new Random();
+
+    for (int i = 0; i < size; i++)
+    {
+        tempArray[i] = rand.Next(minRange, maxRange);
+    }
+    return tempArray;
+}
+
+void PrintArray(int[] arrayForPrint)
+{
+    Console.WriteLine(string.Join(", ", arrayForPrint));
+}
+
+int EvenCountNumbers(int[] anyArray)
+{
+    int count = 0;
+    foreach (int num in anyArray)
+    {
+        if (num % 2 == 0)
+        {
+            count++;
+        }
+    }
+    return count;
+}
+
+
+Main2();

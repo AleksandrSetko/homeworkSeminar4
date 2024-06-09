@@ -1,0 +1,15 @@
+/Users/setko/project it/homeworkSeminar4/obj/Debug/net8.0/homeworkSeminar4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/setko/project it/homeworkSeminar4/obj/Debug/net8.0/homeworkSeminar4.AssemblyInfoInputs.cache
+/Users/setko/project it/homeworkSeminar4/obj/Debug/net8.0/homeworkSeminar4.AssemblyInfo.cs
+/Users/setko/project it/homeworkSeminar4/obj/Debug/net8.0/homeworkSeminar4.csproj.CoreCompileInputs.cache
+/Users/setko/project it/homeworkSeminar4/obj/Debug/net8.0/homeworkSeminar4.sourcelink.json
+/Users/setko/project it/homeworkSeminar4/bin/Debug/net8.0/homeworkSeminar4
+/Users/setko/project it/homeworkSeminar4/bin/Debug/net8.0/homeworkSeminar4.deps.json
+/Users/setko/project it/homeworkSeminar4/bin/Debug/net8.0/homeworkSeminar4.runtimeconfig.json
+/Users/setko/project it/homeworkSeminar4/bin/Debug/net8.0/homeworkSeminar4.dll
+/Users/setko/project it/homeworkSeminar4/bin/Debug/net8.0/homeworkSeminar4.pdb
+/Users/setko/project it/homeworkSeminar4/obj/Debug/net8.0/homeworkSeminar4.dll
+/Users/setko/project it/homeworkSeminar4/obj/Debug/net8.0/refint/homeworkSeminar4.dll
+/Users/setko/project it/homeworkSeminar4/obj/Debug/net8.0/homeworkSeminar4.pdb
+/Users/setko/project it/homeworkSeminar4/obj/Debug/net8.0/homeworkSeminar4.genruntimeconfig.cache
+/Users/setko/project it/homeworkSeminar4/obj/Debug/net8.0/ref/homeworkSeminar4.dll

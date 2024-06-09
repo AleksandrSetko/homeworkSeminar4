@@ -31,7 +31,7 @@ void Main()
     }
 }
 
-static int GetSumOfDigits(int num)
+int GetSumOfDigits(int num)
 {
     int sum = 0;
     while (num > 0)
@@ -41,4 +41,5 @@ static int GetSumOfDigits(int num)
     }
     return sum;
 }
+
 Main();
